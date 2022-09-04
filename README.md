@@ -1,4 +1,4 @@
-# Rhythm.Color™
+# Rhythm© Color System
 Rhythm® Color System
 
 Developed by [**AtelierDesign**](https://atlrdsgn.com)®–
