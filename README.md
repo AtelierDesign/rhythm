@@ -64,7 +64,7 @@ export const RhythmExample = () => {
 ##### **M** = $mauve
 ##### **C** = $capri
 
-
+<hr>
 
 Copyright © 2022 Atelier Design Yield®
 
