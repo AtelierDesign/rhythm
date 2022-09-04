@@ -1,0 +1,29 @@
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Swap the comments on the following lines if you don't wish to use zero-installs
+# Documentation here: https://yarnpkg.com/features/zero-installs
+!.yarn/cache
+#.pnp.*
+
+/node_modules/
+/types
+.DS_Store
+/*.css
+index.js
+index.mjs
+
+dawnA.d.ts
+ghostA.d.ts
+index.d.ts
+
+node_modules
+/node_modules
+
+yarn.lock
+.yarn
+/.yarn

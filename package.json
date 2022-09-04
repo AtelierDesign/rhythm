@@ -1,0 +1,49 @@
+{
+  "name": "@atlr-dsgn/rhythm",
+  "version": "0.0.9",
+  "main": "index.js",
+  "module": "index.mjs",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "build": "yarn clean && yarn && rollup -c && yarn build-css && yarn zip",
+    "build:clean": "yarn clean && yarn && rollup -c && yarn build-css && yarn zip && yarn clean",
+    "release": "yarn clean && yarn && rollup -c && yarn build-css && yarn np",
+    "build-css": "node ./scripts/build-css.js",
+    "postpublish": "yarn clean",
+    "clean": "git clean -fdX",
+    "zip": "npm-build-zip --source=./",
+    "np": "npm publish --access public"
+  },
+  "keywords": [
+    "AtelierDesign",
+    "atlr-dsgn",
+    "@atlr-dsgn",
+    "rhythm",
+    "colors",
+    "color-system"
+  ],
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "latest",
+    "@types/node": "latest",
+    "npm-build-zip": "^1.0.3",
+    "path-parse": "1.0.7",
+    "rollup": "latest",
+    "tslib": "latest",
+    "typescript": "latest"
+  },
+  "license": "MIT",
+  "description": "Rhythm® Color System.",
+  "author": "chvndler <chan@ady.world> (@chv.ndler)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtelierDesign/rhythm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AtelierDesign/rhythm/issues"
+  },
+  "homepage": "https://github.com/AtelierDesign/rhythm#readme"
+}
