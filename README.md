@@ -8,19 +8,32 @@ for use with [Stitches](https://stitches.dev) and [Radix-UI](https://www.radix-u
 
 ### Installation
 
-`yarn add rhythm.color`
+```
+yarn add @atlr-dsgn/rhythm
+```
 or
-`npm install rhythm.color`
+```
+npm install @atlr-dsgn/rhythm
+```
 
 ### Usage
 
 Import Rhythm® into your project.
 
-` import { colors } from 'rhythm.color' `
+```
+import { colors } from '@atlr-dsgn/rhythm'
+```
 
 Then use the system as tokens.
 
-` $rhythm(x) `
+```tsx
+import { styled } from '@stitches/react';
+
+const Background = styled('div', {
+    backgroundColor: '$razz5',
+    color: '$ghost12'
+});
+```
 
 ### Example Component
 
@@ -32,7 +45,7 @@ import { Text } from 'atelier.design';
 export const RhythmExample = () => {
   return (
     <>
-      <Text css={{ color: '$rhythm2' }}>
+      <Text css={{ color: '$moon9' }}>
         Hi, from Rhythm® Color
       </Text>
     </>
