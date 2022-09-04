@@ -3,7 +3,7 @@
   "version": "0.0.9",
   "main": "index.js",
   "module": "index.mjs",
-  "types": "types/index.d.ts",
+  "types": "types/types/index.d.ts",
   "scripts": {
     "build": "yarn clean && yarn && rollup -c && yarn build-css && yarn zip",
     "build:clean": "yarn clean && yarn && rollup -c && yarn build-css && yarn zip && yarn clean",
