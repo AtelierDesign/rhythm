@@ -1,11 +1,11 @@
 {
   "name": "@atlr-dsgn/rhythm",
-  "version": "0.1.9",
+  "version": "0.2.1",
   "main": "index.js",
   "module": "index.mjs",
   "types": "types/types/index.d.ts",
   "scripts": {
-    "build": "yarn clean && yarn && rollup -c && yarn build-css && yarn zip",
+    "build": "yarn clean && yarn && rollup -c && yarn build-css",
     "build:clean": "yarn clean && yarn && rollup -c && yarn build-css && yarn zip && yarn clean",
     "release": "yarn clean && yarn && rollup -c && yarn build-css && yarn np",
     "build-css": "node ./scripts/build-css.js",

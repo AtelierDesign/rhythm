@@ -1,4 +1,4 @@
-export const capriDark = {
+export const capri = {
     capri1: 'hsl(195, 13%, 6%)',
     capri2: 'hsl(191, 29%, 19%)',
     capri3: 'hsl(194, 44%, 32%)',

@@ -1,4 +1,4 @@
-export const tangoDark = {
+export const tango = {
     tango1: 'rgba(94, 0, 29, 1)',
     tango2: 'rgba(135, 11, 26, 1)',
     tango3: 'rgba(175, 37, 29, 1)',

@@ -1,4 +1,4 @@
-export const heavenDark = {
+export const heaven = {
     heaven1: 'rgba(35, 34, 59, 1)',
     heaven2: 'rgba(68, 65, 108, 1)',
     heaven3: 'rgba(103, 99, 154, 1)',

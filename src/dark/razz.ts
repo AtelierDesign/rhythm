@@ -1,4 +1,4 @@
-export const razzDark = {
+export const razz = {
     razz1: 'rgba(59, 0, 15, 1)',
     razz2: 'rgba(108, 0, 31, 1)',
     razz3: 'rgba(157, 0, 49, 1)',

@@ -34,7 +34,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@rollup/plugin-typescript", "virtual:1d60e2c64a00c47903bb9e383585a7a3a197f9df97c4af414e1f38a72b01e2098f6a0708ebb6bbf76c23f8527aed385cf5182c3dfcbea9d15171f0ecdf38eba3#npm:8.4.0"],\
-            ["@types/node", "npm:18.7.14"],\
+            ["@types/node", "npm:18.7.15"],\
             ["npm-build-zip", "npm:1.0.3"],\
             ["path-parse", "npm:1.0.7"],\
             ["rollup", "npm:2.79.0"],\
@@ -50,7 +50,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@atlr-dsgn/rhythm", "workspace:."],\
             ["@rollup/plugin-typescript", "virtual:1d60e2c64a00c47903bb9e383585a7a3a197f9df97c4af414e1f38a72b01e2098f6a0708ebb6bbf76c23f8527aed385cf5182c3dfcbea9d15171f0ecdf38eba3#npm:8.4.0"],\
-            ["@types/node", "npm:18.7.14"],\
+            ["@types/node", "npm:18.7.15"],\
             ["npm-build-zip", "npm:1.0.3"],\
             ["path-parse", "npm:1.0.7"],\
             ["rollup", "npm:2.79.0"],\
@@ -167,10 +167,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/node", [\
-        ["npm:18.7.14", {\
-          "packageLocation": "./.yarn/cache/@types-node-npm-18.7.14-8eae13b8f4-99cf28ff85.zip/node_modules/@types/node/",\
+        ["npm:18.7.15", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-18.7.15-3b77ff6bd6-1435fc7fe4.zip/node_modules/@types/node/",\
           "packageDependencies": [\
-            ["@types/node", "npm:18.7.14"]\
+            ["@types/node", "npm:18.7.15"]\
           ],\
           "linkType": "HARD"\
         }]\

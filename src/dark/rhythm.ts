@@ -1,4 +1,4 @@
-export const rhythmDark = {
+export const rhythm = {
   rhythm1: 'hsl(246, 6.0%, 9.0%)',
   rhythm2: 'hsl(240, 5.1%, 11.6%)',
   rhythm3: 'hsl(241, 5.0%, 14.3%)',

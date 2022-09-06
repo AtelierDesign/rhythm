@@ -1,4 +1,4 @@
-export const helioDark = {
+export const helio = {
     helio1: 'rgba(11, 23, 20, 1)',
     helio2: 'rgba(36, 77, 58, 1)',
     helio3: 'rgba(58, 133, 82, 1)',

@@ -1,4 +1,4 @@
-export const rhythmDarkAlpha = {
+export const rhythmA = {
   rhythmA1: 'hsla(0, 0%, 0%, 0)',
   rhythmA2: 'hsla(240, 76.7%, 91.2%, 0.031)',
   rhythmA3: 'hsla(240, 86.0%, 95.8%, 0.061)',

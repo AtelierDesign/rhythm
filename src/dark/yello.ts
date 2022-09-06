@@ -1,4 +1,4 @@
-export const yelloDark = {
+export const yello = {
     yello1: 'rgba(59, 59, 0, 1)',
     yello2: 'rgba(108, 108, 0, 1)',
     yello3: 'rgba(157, 157, 0, 1)',

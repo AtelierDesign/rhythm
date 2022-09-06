@@ -1,4 +1,4 @@
-export const moonDark = {
+export const moon = {
     moon1: 'rgba(123, 84, 99, 1)',
     moon2: 'rgba(154, 106, 134, 1)',
     moon3: 'rgba(183, 128, 173, 1)',
