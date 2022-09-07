@@ -21,6 +21,12 @@ dawnA.d.ts
 ghostA.d.ts
 index.d.ts
 
+./dark
+./light
+
+/dark
+/light
+
 node_modules
 /node_modules
 
